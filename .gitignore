@@ -1,0 +1,19 @@
+# dependências e saída de build
+node_modules/
+dist/
+.netlify/
+
+# variáveis de ambiente (só o .env.example vai para o Git)
+.env
+.env.*
+!.env.example
+
+# logs e arquivos do sistema/editor
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tsbuildinfo
+coverage/
